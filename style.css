@@ -68,12 +68,19 @@ nav .nav-links a{
     border: none;
     margin-top: 16px;
 }
-.container .section-image img{
+.section-image img{
     width: 440px;
     height: 414px;
+    background-image: url(images/back-image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* Company logos section  */
+.section-two{
+    margin-top: 70px;
+}
 .image-container{
     display: flex;
     justify-content: space-around;
